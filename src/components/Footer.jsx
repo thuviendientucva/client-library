@@ -95,12 +95,12 @@ const Footer = () => {
         Một thư viện là một kho sưu tập các nguồn thông tin, được chọn lựa bởi các chuyên gia và có thể được tiếp cận để tham khảo hay mượn, thường là trong một môi trường yên tĩnh phù hợp cho học tập.
         </Desc>
         <SocialContainer>
-          <SocialIcon
+          {/* <SocialIcon
           color="3B5999"
           href="https://www.facebook.com/lytutrongvungtau"
           target="_blank">
             <Facebook />
-          </SocialIcon>
+          </SocialIcon> */}
           {/* <SocialIcon color="E4405F">
             <Instagram />
           </SocialIcon>
@@ -116,16 +116,16 @@ const Footer = () => {
         <Title>Đường dẫn nhanh</Title>
         <List>
           <ListItem
-          href="https://thuvienlytutrong.netlify.app/"
+          href="https://thuvienchuvanan.netlify.app/"
           >Trang chủ mượn sách</ListItem>
           <ListItem
-          href="https://quanly-thuvienlytutrong.netlify.app/"
+          href="https://quanly-chuvanan.netlify.app/"
           >Trang quản lý sách</ListItem>
           <ListItem
-          href="https://thuvienlytutrong.netlify.app/books/"
+          href="https://thuvienchuvanan.netlify.app/books/"
           >Danh sách đầu sách</ListItem>
           <ListItem
-          href="https://thuvienlytutrong.netlify.app/cart/"
+          href="https://thuvienchuvanan.netlify.app/cart/"
           >Tủ sách của bạn</ListItem>
           {/* <ListItem>Accessories</ListItem>
           <ListItem>My Account</ListItem>
@@ -136,7 +136,7 @@ const Footer = () => {
         </List>
       </Center>
       <Right>
-        <Title>Liên hệ</Title>
+        {/* <Title>Liên hệ</Title>
         <ContactItem>
           <Room style={{marginRight:"10px"}}/> 242 Đường 2/9, Phường 8, TP. Vũng Tàu, BR-VT
         </ContactItem>
@@ -145,7 +145,7 @@ const Footer = () => {
         </ContactItem>
         <ContactItem>
           <MailOutline style={{marginRight:"10px"}} /> tieuhoclytutrong.p8.vt@gmail.com
-        </ContactItem>
+        </ContactItem> */}
         {/* <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" /> */}
       </Right>
     </Container>
